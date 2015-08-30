@@ -1,0 +1,21 @@
+{
+  "name": "atom-flex-layout",
+  "version": "0.0.1",
+  "author": "Frederik Krautwald",
+  "description": "Flexbox-based layouts",
+  "license": "MIT",
+  "bugs": "https://github.com/CyclicMaterials/atom-flex-layout/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CyclicMaterials/atom-flex-layout"
+  },
+  "keywords": [
+    "cyclejs",
+    "flexbox",
+    "layout",
+    "Material Design"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {}
+}

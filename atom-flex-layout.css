@@ -1,0 +1,161 @@
+.atom-FlexLayout,
+.atom-FlexLayout--horizontal,
+.atom-FlexLayout--horizontalReverse,
+.atom-FlexLayout--vertical,
+.atom-FlexLayout--verticalReverse,
+.atom-FlexLayout--wrap,
+.atom-FlexLayout--wrapReverse,
+.atom-FlexLayout--start,
+.atom-FlexLayout--center,
+.atom-FlexLayout--end,
+.atom-FlexLayout--startJustified,
+.atom-FlexLayout--centerJustified,
+.atom-FlexLayout--endJustified,
+.atom-FlexLayout--aroundJustified,
+.atom-FlexLayout--justified,
+.atom-FlexLayout--centerCenter {
+  display: flex;
+}
+
+.atom-FlexLayout--inline {
+  display: inline-flex;
+}
+
+.atom-FlexLayout--horizontal {
+  flex-direction: row;
+}
+
+.atom-FlexLayout--horizontalReverse {
+  flex-direction: row-reverse;
+}
+
+.atom-FlexLayout--vertical {
+  flex-direction: column;
+}
+
+.atom-FlexLayout--verticalReverse {
+  flex-direction: column-reverse;
+}
+
+.atom-FlexLayout--wrap {
+  flex-wrap: wrap;
+}
+
+.atom-FlexLayout--wrapReverse {
+  flex-wrap: wrap-reverse;
+}
+
+/* Alignment in cross axis */
+
+.atom-FlexLayout--start {
+  align-items: flex-start;
+}
+
+.atom-FlexLayout--center,
+.atom-FlexLayout--centerCenter {
+  align-items: center;
+}
+
+.atom-FlexLayout--end {
+  align-items: flex-end;
+}
+
+/* Alignment in main axis */
+
+.atom-FlexLayout--startJustified {
+  justify-content: flex-start;
+}
+
+.atom-FlexLayout--centerJustified,
+.atom-FlexLayout--centerCenter {
+  justify-content: center;
+}
+
+.atom-FlexLayout--endJustified {
+  justify-content: flex-end;
+}
+
+.atom-FlexLayout--aroundJustified {
+  justify-content: space-around;
+}
+
+.atom-FlexLayout--justified {
+  justify-content: space-between;
+}
+
+/* ==========  Descendants  ========== */
+
+.atom-FlexLayout_auto {
+  flex: 1 1 auto;
+}
+
+.atom-FlexLayout_none {
+  flex: none;
+}
+
+.atom-FlexLayout_flex {
+  flex: 1;
+  flex-basis: 0.000000001px;
+}
+
+.atom-FlexLayout_flex2 {
+  flex: 2;
+}
+
+.atom-FlexLayout_flex3 {
+  flex: 3;
+}
+
+.atom-FlexLayout_flex4 {
+  flex: 4;
+}
+
+.atom-FlexLayout_flex5 {
+  flex: 5;
+}
+
+.atom-FlexLayout_flex6 {
+  flex: 6;
+}
+
+.atom-FlexLayout_flex7 {
+  flex: 7;
+}
+
+.atom-FlexLayout_flex8 {
+  flex: 8;
+}
+
+.atom-FlexLayout_flex9 {
+  flex: 9;
+}
+
+.atom-FlexLayout_flex10 {
+  flex: 10;
+}
+
+.atom-FlexLayout_flex11 {
+  flex: 11;
+}
+
+.atom-FlexLayout_flex12 {
+  flex: 12;
+}
+
+/* Self alignment */
+
+.atom-FlexLayout_selfStart {
+  align-self: flex-start;
+}
+
+.atom-FlexLayout_selfCenter {
+  align-self: center;
+}
+
+.atom-FlexLayout_selfEnd {
+  align-self: flex-end;
+}
+
+.atom-FlexLayout_selfStretch {
+  align-items: stretch;
+}
