@@ -1,5 +1,5 @@
 {
-  "name": "atom-flex-layout",
+  "name": "@cyclic/atom-flex-layout",
   "version": "0.0.1",
   "author": "Frederik Krautwald",
   "description": "Flexbox-based layouts",
